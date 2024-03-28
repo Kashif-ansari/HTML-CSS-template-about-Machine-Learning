@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<title>Machine Learning</title>
+<link href="project.css" type="text/css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" >
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="project.html" class="w3-bar-item w3-button w3-wide">Machine Learning</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="exercise.html" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> EXERCISE</a>
+      <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="exercise.html" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> EXERCISE</a>
+  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">What is Machine Learning?</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">What is Machine Learning?</span><br>
+    <span class="w3-large">Machine learning is a branch of artificial intelligence (AI) <br>
+      focused on building applications that learn from data <br>and 
+      improve their accuracy over time without being <br>programmed to do so. </span>
+    <p><a href="#cat" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">
+      Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity" ></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+<div align="center">
+  <h1>Evolution of machine learning</h1>
+  <table class="paragraph">
+    <tr>
+      <td >
+        <p>Because of new computing technologies, machine learning today is not like machine learning of the 
+          past. It was born from pattern recognition and the theory that computers can learn without being 
+          programmed to perform specific tasks; researchers interested in artificial intelligence wanted to see 
+          if computers could learn from data. The iterative aspect of machine learning is important because as 
+          models are exposed to new data, they are able to independently adapt. They learn from previous 
+          computations to produce reliable, repeatable decisions and results. It’s a science that’s not new – 
+          but one that has gained fresh momentum.
+          <br>While many machine learning algorithms have been around for a long time, the ability to 
+          automatically apply complex mathematical calculations to big data – over and over, faster and faster – 
+          is a recent development. Here are a few widely publicized examples of machine learning applications 
+          you may be familiar with:</p>
+          <ul>
+            <li>The heavily hyped, self-driving Google car? The essence of machine learning.</li>
+            <li>Online recommendation offers such as those from Amazon and Netflix? Machine learning 
+              applications for everyday life.</li>
+            <li>Knowing what customers are saying about you on Twitter? Machine learning combined with 
+              linguistic rule creation.</li>
+            <li>Fraud detection? One of the more obvious, important uses in our world today.</li>
+          </ul>
+      
+      </td>
+    </tr>
+  </table>
+  
+</div>
+<div align="center">
+  <h1>Benefits of Machine Learning</h1>
+  <table class="paragraph">
+    <tr>
+      <td >
+        <p>Most industries working with large amounts of data have recognized the value of 
+          machine learning technology. By gleaning insights from this data – often in real time – 
+          organizations are able to work more efficiently or gain an advantage over competitors.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h2>Financial services</h2>
+        <p>Banks and other businesses in the financial industry use machine learning technology for 
+          two key purposes: to identify important insights in data, and prevent fraud. The insights 
+          can identify investment opportunities, or help investors know when to trade. Data mining 
+          can also identify clients with high-risk profiles, or use cybersurveillance to pinpoint 
+          warning signs of fraud.</p>
+      </td>
+      <td>
+        <h2>Government</h2>
+        <p>Government agencies such as public safety and utilities have a particular need for machine 
+          learning since they have multiple sources of data that can be mined for insights. Analyzing 
+          sensor data, for example, identifies ways to increase efficiency and save money. Machine 
+          learning can also help detect fraud and minimize identity theft.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h2>Health care</h2>
+        <p>Machine learning is a fast-growing trend in the health care industry, thanks to the 
+          advent of wearable devices and sensors that can use data to assess a patient's health in 
+          real time. The technology can also help medical experts analyze data to identify trends or 
+          red flags that may lead to improved diagnoses and treatment.</p>
+      </td>
+      <td>
+          <h2>Retail</h2>
+          <p>Websites recommending items you might like based on previous purchases are using machine 
+            learning to analyze your buying history.  Retailers rely on machine learning to capture 
+            data, analyze it and use it to personalize a shopping experience, implement a marketing 
+            campaign, price optimization, merchandise supply planning, and for customer insights.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h2>Oil and gas</h2>
+        <p>Finding new energy sources. Analyzing minerals in the ground. Predicting refinery sensor 
+          failure. Streamlining oil distribution to make it more efficient and cost-effective. The 
+          number of machine learning use cases for this industry is vast – and still expanding.</p>
+      </td>
+      <td>
+        <h2>Transportation</h2>
+        <p>
+          Analyzing data to identify patterns and trends is key to the transportation industry, 
+          which relies on making routes more efficient and predicting potential problems to increase 
+          profitability. The data analysis and modeling aspects of machine learning are important tools 
+          to delivery companies, public transportation and other transportation organizations.
+        </p>
+      </td>
+    </tr>
+  </table>
+  
+</div>
+<div align="center">
+  
+  <h1 class="cat" id="cat">Categories</h1>
+<div class="w3-row-padding w3-theme">
+
+  <div class="w3-third w3-section">
+  <div class="w3-card-4" id="box">
+  <img src="1.jpeg" style="width:100%" >
+  <div class="w3-container w3-white">
+  <h4>Beginner</h4>
+  <p>This course is designed to introduce you to Machine Learning without needing any programming. That means that we don't cover the programming based machine learning tools like python and TensorFlow.</p>
+  </div>
+  </div>
+  </div>
+  <div class="w3-third w3-section" >
+    <div class="w3-card-4" id="box">
+    <img src="5.jpg" style="width:100%" >
+    <div class="w3-container w3-white">
+    <h4>Inermediate</h4>
+    <p>This Specialization from leading researchers at the University of Washington introduces you to the exciting, high-demand field of Machine Learning. Through a series of practical case studies, you will gain applied experience in major areas of Machine Learning including Prediction, Classification, Clustering, and Information Retrieval. You will learn to analyze large and complex datasets, create systems that adapt and improve over time, and build intelligent applications that can make predictions from data.</p>
+    </div>
+    </div>
+    </div>
+    <div class="w3-third w3-section">
+      <div class="w3-card-4" id="box">
+      <img src="4.png" style="width:100%" >
+      <div class="w3-container w3-white">
+      <h4>Advanced</h4>
+      <p>The Cinque Terre (five lands) is a portion of <br>the Italian Riviera. The coastline with five 
+        <br>villages: Monterosso, Vernazza, Corniglia, <br>Manarola, and Riomaggiore
+      is a UNESCO <br>World Heritage Site.</p>
+      </div>
+      </div>
+      </div>
+    </div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="project.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To tha Top</a><br><br>
+  <a href="project.html" class="w3-button w3-light-grey"><i class="fa fa-paper-plane w3-margin-right"></i>Home</a>
+  <a href="work.html" class="w3-button w3-light-grey"><i class="fa fa-th w3-margin-right"></i>Work</a>
+  <a href="exercise.html" class="w3-button w3-light-grey"><i class="fa fa-desktop w3-margin-right"></i>Exercise</a>
+  <a href="team.html" class="w3-button w3-light-grey"><i class="fa fa-user w3-margin-right"></i>Team</a>
+  <a href="pricing.html" class="w3-button w3-light-grey"><i class="fa fa-usd w3-margin-right"></i>Pricing</a>
+  <a href="about.html" class="w3-button w3-light-grey"><i class="fa fa-photo w3-margin-right"></i>About</a>
+  <a href="contact.html" class="w3-button w3-light-grey"><i class="fa fa-envelope w3-margin-right"></i>Contact</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.instagram.com/mkashif_ansari/" title="IICT Project" target="_blank" class="w3-hover-text-green">IICT Project</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>

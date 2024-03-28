@@ -1,0 +1,49 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+img{
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+}
+#box{
+  align-self: center;
+  width: 400px;
+  border-radius: 16px;
+}
+#box_work{
+  align-self: center;
+  width: 300px;
+  border-radius: 16px;
+}
+a:link{
+  text-decoration: none;
+}
+
+.cat{
+  font-size: 70px;
+  font-family:raleway,sans-serif;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("logo.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.paragraph{
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: medium;
+}
+#text{
+  text-align: center;
+}

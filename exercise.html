@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<title>Exercise</title>
+<link href="project.css" type="text/css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="project.html" class="w3-bar-item w3-button w3-wide">Machine Learning</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+        <a href="work.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+        <a href="exercise.html" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> EXERCISE</a>
+        <a href="team.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+        <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+        <a href="about.html" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="work.html" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="exercise.html" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> EXERCISE</a>
+  <a href="team.html" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+<!-- Exercise -->
+<div style="margin-top: 50px;">
+<center><h1>Quiz Questions</h1></center>
+<div style="margin-left: 50px;">
+<p>
+<form name="quiz">
+
+  <br>
+    <b>Question 1.
+    <br>1. What is true about Machine Learning?<br></b></p>
+    <blockquote>
+<input type="radio" name="q1" value="Machine Learning (ML) is that field of computer science">Machine Learning (ML) is that field of computer science<br>
+<input type="radio" name="q1" value=" ML is a type of artificial intelligence that extract patterns out of raw data by using an algorithm or method."> ML is a type of artificial intelligence that extract patterns out of raw data by using an algorithm or method.<br>
+<input type="radio" name="q1" value="All of the above">All of the above<br>
+</blockquote>
+
+<p><b>
+<hr>
+Question 2.
+<br> ML is a field of AI consisting of learning algorithms that?<br></b></p>
+<blockquote>
+<input type="radio" name="q2" value="Improve their performance">Improve their performance<br>
+<input type="radio" name="q2" value="At executing some task">At executing some task<br>
+<input type="radio" name="q2" value="All of the above"> All of the above<br>
+</blockquote>
+<p><b>
+<hr>
+Question 3.
+<br>  p → 0q is not a?<br></b></p>
+
+<blockquote>
+<input type="radio" name="q3" value="hack clause">hack clause<br>
+<input type="radio" name="q3" value="horn clause">horn clause<br>
+<input type="radio" name="q3" value="structural clause">structural clause<br>
+</blockquote>
+<p><b>
+<hr>
+Question 4.
+<br><br> The action _______ of a robot arm specify to Place block A on block B.</b></p>
+
+<blockquote>
+<input type="radio" name="q4" value="STACK(A,B)">STACK(A,B)<br>
+<input type="radio" name="q4" value="LIST(A,B)">LIST(A,B)<br>
+<input type="radio" name="q4" value="QUEUE(A,B)">QUEUE(A,B)<br>
+</blockquote>
+<p><b>
+<hr>
+Question 5.
+<br>A__________ begins by hypothesizing a sentence (the symbol S) and successively predicting lower level constituents until individual preterminal symbols are written.<br></b>
+</p>
+<blockquote>
+<input type="radio" name="q5" value="bottow-up parser">bottow-up parser<br>
+<input type="radio" name="q5" value="top parser">top parser<br>
+<input type="radio" name="q5" value="top-down parser">top-down parser<br>
+</blockquote>
+<p><b>
+<hr>
+
+
+
+<input type="button"value="Grade Me"onClick="getScore(this.form);">
+<input type="reset" value="Clear"><p>
+Number of score out of 15 = <input type= text size 15 name= "mark">
+Score in percentage = <input type=text size=15 name="percentage"><br>
+
+</form>
+</b></p>
+
+<form method="post" name="Form" onsubmit="" action="">
+</form>
+</div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+    <a href="exercise.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To tha Top</a><br><br>
+    <a href="project.html" class="w3-button w3-light-grey"><i class="fa fa-paper-plane w3-margin-right"></i>Home</a>
+    <a href="work.html" class="w3-button w3-light-grey"><i class="fa fa-th w3-margin-right"></i>Work</a>
+    <a href="exercise.html" class="w3-button w3-light-grey"><i class="fa fa-desktop w3-margin-right"></i>Exercise</a>
+    <a href="team.html" class="w3-button w3-light-grey"><i class="fa fa-user w3-margin-right"></i>Team</a>
+    <a href="pricing.html" class="w3-button w3-light-grey"><i class="fa fa-usd w3-margin-right"></i>Pricing</a>
+    <a href="about.html" class="w3-button w3-light-grey"><i class="fa fa-photo w3-margin-right"></i>About</a>
+    <a href="contact.html" class="w3-button w3-light-grey"><i class="fa fa-envelope w3-margin-right"></i>Contact</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.instagram.com/mkashif_ansari/" title="IICT Project" target="_blank" class="w3-hover-text-green">IICT Project</a></p>
+</footer>
+ 
+
+
+</body>
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  
+  // Toggle between showing and hiding the sidebar when clicking the menu icon
+  var mySidebar = document.getElementById("mySidebar");
+  
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  var numQues = 5;
+  var numChoi = 3;
+  var answers = new Array(5);
+  answers[0] = "All of the above";
+  answers[1] = "All of the above";
+  answers[2] = "horn clause";
+  answers[3] = " STACK(A,B)";
+  answers[4] = "doesn't make";
+    function getScore(form) {
+  
+  var score = 0;
+  var currElt;
+  var currSelection;
+  for (i=0; i<numQues; i++) {
+  currElt = i*numChoi;
+  answered=false; 
+  for (j=0; j<numChoi; j++) {
+    currSelection = form.elements[currElt + j];
+    if (currSelection.checked) {
+      answered=true;
+      if (currSelection.value == answers[i]) {
+        score++;
+        break;
+      }
+    }
+  }
+  if (answered ===false){alert("Do answer all the questions, Please") ;return false;}
+  }
+  
+  var scoreper = Math.round(score/numQues*100);
+  form.percentage.value = scoreper + "%";
+  form.mark.value=score;
+  }
+  </script>
+</html>
